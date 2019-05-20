@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MenuTV"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/GalleryB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        app:layout_constraintBottom_toBottomOf="@+id/InstructionsB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/InstructionsB" />
+
+    <Button
+        android:id="@+id/InstructionsB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/instruction"
+        app:layout_constraintStart_toStartOf="@+id/StartB"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:text="@string/settings"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/BackGroundIV" />
+
+    <Button
+        android:id="@+id/StartB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/begin"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/BackGroundIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/GalleryB"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/menuDescription"
+        app:srcCompat="@drawable/Tau_with_Garrys_cup_Nothing_is_unusual" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="menu">Меню</string>
+    <string name="gallery">Галерея</string>
+    <string name="instruction">Инструкция</string>
+    <string name="settings">Настройки</string>
+    <string name="begin">Начать</string>
+    <string name="menuDescription">Tau with Garry Cup</string>
+</resources>
